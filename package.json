@@ -13,5 +13,11 @@
     "rishabh",
     "das",
     "introduction"
-  ]
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "up16/up16-cli",
+  "author": {
+    "name": "Rishabh das"
+  }
 }
