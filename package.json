@@ -1,10 +1,11 @@
 {
   "name": "up16-cli",
   "version": "1.1.0",
+  "description": "Get to know Rishabh via `npx up16-cli`",
   "bin": {
     "up16": "index.js"
   },
   "dependencies": {
-    "clear-any-console": "^1.16.2"
+    "cli-welcome": "^2.2.2"
   }
 }
