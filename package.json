@@ -1,0 +1,7 @@
+{
+  "name": "up16-cli",
+  "version": "1.0.0",
+  "bin": {
+    "up16": "index.js"
+  }
+}
