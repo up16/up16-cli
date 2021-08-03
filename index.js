@@ -2,6 +2,7 @@
 
 const pkgJSON = require("./package.json");
 const welcome = require("cli-welcome");
+const chalk = require("chalk");
 
 welcome({
   title: pkgJSON.name,
@@ -11,9 +12,17 @@ welcome({
   bgColor: "#fadc00",
   color: "#000",
   bold: true,
-  clear: false,
+  clear: true,
 });
 
 console.log(
-  `Hi Rishabh (aka "up16") here 👋!! Thanks for trying out up16-cli. Meow`
+  `
+  ${chalk.bgBlue.bold(` Rishabh Das `)}
+
+  ${chalk.italic(
+    `I am a ${chalk.red.bold(
+      "Digital entrepreneur"
+    )}, making the internet a better place one commit at a time`
+  )}
+  `
 );
